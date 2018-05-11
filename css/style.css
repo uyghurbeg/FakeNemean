@@ -1,0 +1,431 @@
+/* set up some of the link*/
+
+a {
+  text-decoration: none;
+  color: #B99F63;
+}
+
+a:hover {
+  color: #B99F63;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+button:focus {
+  outline: none;
+}
+.clear:after,
+.clear:before {
+   content: "";
+   clear: both;
+}
+
+body {
+  background: #FEFEFE;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 30px auto;
+}
+
+.header {
+  height: 595px;
+  background-color: #F5F5F7;
+  color:#B99F63;
+}
+
+.logo {
+  padding-top: 30px;
+  margin-left: 30px;
+  letter-spacing: 1.5px;
+  font-size: 24px;
+  float: left;
+}
+
+.logo img {
+  width: 45px;
+  height: 40px;
+}
+
+.logo span{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.logo span .first {
+  font-weight: 700;
+  font-family: 'Kanit', sans-serif;
+}
+
+.logo span.second {
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+
+.register {
+  float: right;
+  padding-top: 30px;
+  margin-right: 30px;
+}
+
+.register .button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  background-color: #B99F63;
+  display: block;
+  width: 185px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #ffff;
+  text-decoration: none;
+  border: 1px solid #B99F63;
+}
+
+.middle {
+  padding-top:140px;
+  margin-bottom: 100px;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+.middle h1 {
+  margin-top: 0px;
+  font-weight: 700;
+  font-family: 'Kanit', sans-serif;
+  font-size: 78px;
+}
+
+.middle h2 {
+  margin-top: -60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.middle img {
+  width: 115px;
+  height: 125px;
+}
+
+.bottom {
+  width: 70%;
+  margin: 0 auto;
+  background: #FFF;
+  box-shadow:0 10px 100px 0 rgba(0,0,0,.05);
+}
+.text-body {
+  padding: 30px;
+}
+
+.text-body p {
+  color: #333333;
+}
+
+.content {
+  margin: 175px auto;
+  width:90%;
+}
+
+.content .item{
+  width: 30%;
+  float: left;
+  margin-right: 3%;
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.content .item img {
+  width: 100%;
+  height: 340px;
+}
+
+.content .item h3 {
+  color: #B99F63;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top:700px;
+}
+.subscript {
+  background: #F5F5F7;
+  padding: 100px;
+  text-align: center;
+}
+
+.subscript h2{
+  font-weight: 700;
+  font-family: 'Kanit', sans-serif;
+  font-size: 50px;
+  color: #B99F63;
+}
+
+.subscript p {
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.subscript form {
+  display: inline-block;
+}
+.subscript input,
+.subscript button {
+  height: 60px;
+}
+
+.subscript button {
+  width: 150px;
+  background: #B99F63;
+  color: #ffffff;
+  padding: 30p;
+  font-size: 20px;
+  margin-left: -3px;
+}
+
+.subscript input {
+  width: 550px;
+  font-size: 18px;
+  font-style: italic;
+  color: #BCBCBC;
+  padding-left: 30px;
+  border: none;
+  box-shadow:0 10px 100px 0 rgba(0,0,0,.05);
+}
+
+.copyright {
+  background: #4F4F4F;
+  height: 155px;
+}
+
+.copyright img {
+  width: 45px;
+  height: 50px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.copyright span{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.copyright span .first {
+  font-weight: 700;
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+}
+
+.copyright span.second {
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+
+@media screen and (min-width:800px) and (max-width : 1180px)  {
+
+  .content {
+    margin: 210px auto;
+    width:90%;
+  }
+
+  .footer {
+    margin-top:800px;
+  }
+  .subscript {
+      padding: 30px;
+    }
+
+    .subscript h2 {
+      font-size: 44px;
+    }
+
+  .subscript input {
+    width: 350px;
+  }
+
+}
+
+@media screen and (min-width:520px) and (max-width : 800px)  {
+
+  .middle h1 {
+    font-size: 48px;
+    letter-spacing: 7px;
+  }
+
+  .middle h2 {
+    font-size: 16px;
+    letter-spacing: 7px;
+  }
+
+  .middle img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo span.second {
+      display: none;
+  }
+
+  .bottom {
+    width: 80%;
+  }
+
+  .content {
+    margin-top: 250px;
+  }
+
+  .content .item {
+    width: 90%;
+    margin-top:30px;
+  }
+
+  .content .item img {
+    width: 205px;
+    height: 205px;
+    float: left;
+    margin-right: 20px;
+  }
+
+  .item .information {
+    margin-top:-18px;
+    width: 100%;
+  }
+
+  .footer {
+    margin-top: 1040px;
+  }
+
+  .subscript {
+      padding: 40px;
+    }
+
+    .subscript h2 {
+      font-size: 32px;
+    }
+
+  .subscript button {
+    width: 100px;
+
+  }
+  .subscript input {
+    width: 220px;
+  }
+
+  .subscript input {
+    padding-left: 30px;
+}
+}
+
+@media screen and (max-width:520px) {
+
+  .container{
+    margin-top: 10px;
+  }
+
+  .logo {
+    float: none;
+    display: none;
+  }
+  .register {
+    float: none;
+    width: 100%;
+  }
+  .register a {
+    display: block;
+    width: 300px;
+  }
+
+  .middle h1 {
+    font-size: 40px;
+    letter-spacing: 7px;
+  }
+
+  .middle h2 {
+    font-size: 16px;
+    letter-spacing: 7px;
+  }
+
+  .middle img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo span.second {
+      display: none;
+  }
+
+  .middle h2 {
+    margin-top: -40px;
+  }
+
+  .content {
+    margin-top: 150px;
+  }
+
+  .content .item {
+    width: 100%;
+    margin-top:30px;
+    text-align: center;
+  }
+
+  .content .item img {
+    width: 245px;
+    height: 245px;
+    margin-right: 20px;
+  }
+
+  .item .information {
+    margin-top:-8px;
+    width: 100%;
+  }
+
+  .footer {
+    margin-top: 1500px;
+  }
+
+  .subscript {
+      padding: 20px;
+    }
+
+    .subscript h2 {
+      font-size: 32px;
+    }
+  .subscript button {
+    width: 90%;
+
+  }
+  .subscript input {
+    width: 80%;
+    padding: 5;
+  }
+
+  .register .button {
+    margin: 0 auto;
+    font-size: 14px;
+    width: 90%;
+    height: 45px;
+    line-height: 45px;
+  }
+
+  .middle {
+    padding-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .bottom {
+    width: 90%;
+  }
+}
